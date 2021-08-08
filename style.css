@@ -1,0 +1,503 @@
+body {
+    font-family: 'Roboto';
+}
+
+.container {
+    position: relative;
+    width: 360px;
+    height: 859px;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    position: absolute;
+    height: 51px;
+    background: #F8A222;
+    width: 360px;
+    height: 51px;
+}
+
+.logo {
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    top: 15px;
+    left: 20px;
+    font-size: 18px;
+    font-weight:bold;
+    line-height: 21px;
+    color: #333333;
+}
+
+.menu-btn {
+    position: absolute;
+    width: 25px;
+    top: 27px;
+    left: 315px;
+    border: 2px solid #333333;
+    cursor: pointer;
+}
+
+.menu-btn:before,
+.menu-btn:after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    border: 2px solid #333333;
+    background-color: #333333;
+}
+
+.menu-btn:before {
+    content: "";
+    top: -10px;
+    left: -2px;
+}
+
+.menu-btn::after {
+    content: "";
+    top: 6px;
+    left: -2px;
+}
+
+.android-games {
+    position: absolute;
+    width: 320px;
+    height: 25px;
+    top: 71px;
+    left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+}
+
+.rectangle {
+    position: absolute;
+    width: 84px;
+    height: 25px;
+    top:71px;
+    left: 256px;
+    border-radius: 48px;
+    background: #F8A222;
+}
+
+.home {
+    position: absolute;
+    width: 38px;
+    height: 16px;
+    left: 279px;
+    top: 75px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+.posts {
+    position:absolute;
+    width: 320px;
+    height: 607px;
+    left: 20px;
+    top: 116px;
+}
+
+.group2 {
+    position:absolute;
+    width: 320px;
+    height: 189px;
+    top:1px;
+}
+
+.i1 {
+    position: absolute;
+    width: 320px;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.rectangle5 {
+    position: absolute;
+    width: 320px;
+    height: 22px;
+    top:130px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.date {
+    position: absolute;
+    width: 55px;
+    height: 12px;
+    left: 10px;
+    top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.rectangle3 {
+    position: absolute;
+    width: 320px;
+    height: 39px;
+    top:150px;
+    background: #F8A222;
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 5px 5px;
+} 
+
+.nameofthegame1 {
+    position: absolute;
+    width: 119px;
+    height: 19px;
+    left: 15px;
+    top:8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    cursor: pointer;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 82px;
+    height: 25px;
+    left: 234px;
+    top:155px;
+    background: #333333;
+    border: 1px solid #F8A222;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.download {
+    position: absolute;
+    width: 54px;
+    height: 14px;
+    left: 248px;
+    top:160px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #F8A222;
+    cursor: pointer;
+}
+
+.group7 {
+    position: absolute;
+    width: 66.86px;
+    height: 12px;
+    top: 4px;
+    left: 258px;
+}
+
+.star5 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 30px;
+    top: -5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.star4 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 15px;
+    top: -5px;
+    color: #F8A222;
+    cursor: pointer;
+}
+
+.star3 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0px;
+    top: -5px;
+    color: #F8A222;
+    cursor: pointer;
+}
+
+.star2 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: -15px;
+    top: -5px;
+    color: #F8A222;
+    cursor: pointer;
+}
+
+.star1 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: -30px;
+    top: -5px;
+    color: #F8A222;
+    cursor: pointer;
+}
+
+        /******GAME2******/
+
+.group6 {
+    position: absolute;
+    width: 320px;
+    height: 189px;
+    top: 210px;
+}
+
+.i2 {
+    position: absolute;
+    width: 320px;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.date2 {
+    position: absolute;
+    width: 55px;
+    height: 12px;
+    left: 10px;
+    top: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.star4w {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 15px;
+    top: -5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.nameofthegame2 {
+    position: absolute;
+    width: 128;
+    height: 19px;
+    left: 15px;
+    top:8px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    cursor: pointer;
+}
+
+.rectangle2ng {
+    position: absolute;
+    width: 82px;
+    height: 25px;
+    left: 234px;
+    top:5px;
+    background: #333333;
+    border: 1px solid #F8A222;
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+}
+
+.download2 {
+    position: absolute;
+    width: 54px;
+    height: 14px;
+    left: 13px;
+    top:5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #F8A222;
+    cursor: pointer;
+}
+
+        /******GAME3******/
+
+.i3 {
+    position: absolute;
+    width: 320px;
+    height: 150px;
+    top:420px;
+    border-radius: 5px 5px 0px 0px;
+    cursor: pointer;
+}
+
+.rectangle5last {
+    position: absolute;
+    width: 320px;
+    height: 22px;
+    top:550px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.star5g {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 30px;
+    top: -5px;
+    color: #F8A222;
+    cursor: pointer;
+}
+
+.rectangle3lg {
+    position: absolute;
+    width: 320px;
+    height: 39px;
+    top:570px;
+    background: #F8A222;
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.nameofthegame3 {
+    position: absolute;
+    width: 128;
+    height: 19px;
+    left: 15px;
+    top:8px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    cursor: pointer;
+}
+
+          /*----------PAGES----------*/
+
+.pages {
+    position: absolute;
+    width: 123px;
+    height: 23px;
+    top: 630px;
+}
+
+.page1 {
+    position: absolute;
+    width: 11px;
+    height: 21px;
+    top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F8A222;
+    cursor: pointer;
+}
+
+.page2 {
+    position: absolute;
+    width: 35px;
+    height: 21px;
+    left: 20px;
+    top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.page3 {
+    position: absolute;
+    width: 35px;
+    height: 21px;
+    left: 40px;
+    top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.arrow-right {
+    position: absolute;
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+    top: 10px;
+    left: 60px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    border: solid #F8A222;
+    padding: 3px;
+    border-width: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.next {
+    position: absolute;
+    width: 38px;
+    height: 21px;
+    left: 80px;
+    top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F8A222;
+    cursor: pointer;
+}
+
+
+        /*----------FOOTER----------*/
+
+.line4 {
+    position: absolute;
+    width: 315px;
+    height: 0;
+    top: 680px;
+    border: 1px solid #F8A222;
+}
+
+.ContactsAboutDMCA {
+    position: absolute;
+    width: 238px;
+    height: 16px;
+    left: 40px;
+    top: 700px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #F8A222;
+    word-spacing: 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,419 @@
+body {
+    font-family: 'Roboto';
+}
+
+.container {
+    position: relative;
+    width: 360px;
+    height: 1152px;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    position: absolute;
+    height: 51px;
+    background: #F8A222;
+    width: 360px;
+    height: 51px;
+}
+
+.logo {
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    top: 15px;
+    left: 20px;
+    font-size: 18px;
+    font-weight:bold;
+    line-height: 21px;
+    color: #333333;
+}
+
+.menu-btn {
+    position: absolute;
+    width: 25px;
+    top: 27px;
+    left: 315px;
+    border: 2px solid #333333;
+    cursor: pointer;
+}
+
+.menu-btn:before,
+.menu-btn:after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    border: 2px solid #333333;
+    background-color: #333333;
+}
+
+.menu-btn:before {
+    content: "";
+    top: -10px;
+    left: -2px;
+}
+
+.menu-btn::after {
+    content: "";
+    top: 6px;
+    left: -2px;
+}
+
+.android-games {
+    position: absolute;
+    width: 320px;
+    height: 25px;
+    top: 71px;
+    left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+}
+
+.rectangle {
+    position: absolute;
+    width: 84px;
+    height: 25px;
+    top:71px;
+    left: 256px;
+    border-radius: 48px;
+    background: #F8A222;
+}
+
+.home {
+    position: absolute;
+    width: 38px;
+    height: 16px;
+    left: 279px;
+    top: 75px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+.main-image {
+    position: absolute;
+}
+
+.i1 {
+    position: absolute;
+    width: 360px;
+    height: 227px;
+    left: 0;
+    top: 116px;
+    cursor: pointer;
+}
+
+.rectangle6r {
+    position: absolute;
+    width: 25px;
+    height: 227px;;
+    left: 335px;
+    top:116px;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+}
+
+.rectangle6l {
+    position: absolute;
+    width: 25px;
+    height: 227px;;
+    left: 0px;
+    top:116px;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+}
+
+.arrow-right {
+    position: absolute;
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+    top: 100px;
+    left: 5px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    border: solid #F8A222;
+    padding: 3px;
+    border-width: 0 3px 3px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.arrow-left {
+    position: absolute;
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+    top: 104px;
+    left: 5px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    border: solid #F8A222;
+    padding: 3px;
+    border-width: 0 3px 3px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.images-box {
+    position: absolute;
+    width: 373px;
+    height: 53px;
+    left: 0;
+    top: 354px;
+}
+
+.i3 {
+    position: absolute;
+    width: 85px;
+    height: 53px;
+    left: 0;
+    cursor: pointer;
+}
+
+.i4 {
+    position: absolute;
+    width: 85px;
+    height: 53px;
+    left: 96px;
+    cursor: pointer;
+}
+
+.i5 {
+    position: absolute;
+    width: 85px;
+    height: 53px;
+    left: 192px;
+    cursor: pointer;
+}
+
+.i6 {
+    position: absolute;
+    width: 72px;
+    height: 53px;
+    left: 288px;
+    cursor: pointer;
+}
+
+.download {
+    position: absolute;
+    width: 194px;
+    height: 40px;
+    left: 83px;
+    top: 427px;
+}
+
+.rectangle7 {
+    position: absolute;
+    width: 194px;
+    height: 40px;
+    border-radius: 109px;
+    background-color: #F8A222;
+}
+
+.download-text {
+    position: absolute;
+    width: 90px;
+    height: 23px;
+    left: 50px;
+    top: 7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    cursor: pointer;
+}
+
+.raiting {
+    position: absolute;
+    width: 172.15px;
+    height: 45.23px;
+    left: 30px;
+    top: 488px;
+}
+
+.votes {
+    position: absolute;
+    width: 59px;
+    height: 14px;
+    left: 120px;
+    top: 35px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+}
+
+.stars {
+    position: absolute;
+    width: 172.15px;
+    height: 31.23px;
+}
+
+.rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+ 
+.description {
+    position: absolute;
+    width: 308px;
+    left: 20px;
+    top:554px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.rectangle8 {
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    left: 18px;
+    top:721px;
+    border-radius: 24px;
+    background: #F8A222;
+}
+
+.game-tags {
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    left: 17px;
+    top: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    cursor: pointer;
+}
+
+.coments {
+    position: absolute;
+    left: 17px;
+    top: 798px;
+    color: #F8A222;
+}
+
+.line4 {
+    position: absolute;
+    width: 315px;
+    height: 0;
+    left: 18px;
+    top: 823px;
+    border: 1px solid #F8A222;
+}
+
+.user {
+    position: absolute;
+    width: 58px;
+    height: 14px;
+    left: 20px;
+    top: 838px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+}
+
+.date {
+    position: absolute;
+    width: 80px;
+    height: 12px;
+    left: 21px;
+    top: 852px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+}
+
+.overview {
+    position: absolute;
+    width: 307px;
+    height: 12px;
+    left: 21px;
+    top: 867px;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #ffffff;
+}
+
+.ContactsAboutDMCA {
+    position: absolute;
+    width: 238px;
+    height: 16px;
+    left: 64px;
+    top: 1101px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #F8A222;
+    word-spacing: 40px;
+    cursor: pointer;
+}
